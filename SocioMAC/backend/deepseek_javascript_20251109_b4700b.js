@@ -140,7 +140,7 @@ io.on('connection', (socket) => {
   });
 });
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/socialmedia')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/sociomac')
   .then(() => console.log('✅ MongoDB Connected'))
   .catch(err => console.log('❌ MongoDB Error:', err));
 
